@@ -15,4 +15,5 @@ export class OpusStream extends Transform {
 export class Encoder extends OpusStream {}
 export class Decoder extends OpusStream {}
 
-export default { Encoder, Decoder }
+export const _default: { Encoder: Encoder, Decoder: Decoder };
+export default _default;
